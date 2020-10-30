@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'drone-store';
+  items = ['nicolas', 'ivan', 'natalia'];
+
+  addItem() {
+    this.items.push('nuevo item');
+  }
+
+  deleteItem(index: number) {
+    this.items.push('item deleted');
+  }
 }
