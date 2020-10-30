@@ -1,14 +1,21 @@
-# DroneStore
+# Welcome to DroneStore
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+Project made in Angular, node, express,  MySQL, Sequelize.
 
-## Development server
+Drone Store is a virtual store that allows you to market drone parts and tools. This will generate an ease of trade in the drone community and getting parts is easier than importing them.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Launch locally
 
-## Code scaffolding
+### Frontend
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```shell
+$ git clone https://github.com/rogive/Drone-Tools.git
+$ cd Drone-Tools
+$ npm install
+$ expo start
+```
+
+The frontend is based on Angular by default it runs at http://localhost:4200/
 
 ## Build
 
